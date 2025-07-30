@@ -23,14 +23,9 @@ A PHP-based web application for viewing MySQL database data with a clean Bootstr
 
 1. **Database Configuration**: 
    - The application uses the `.env` file for database credentials
-   - Current configuration:
-     - Host: 196.220.96.88
-     - Port: 3306
-     - Username: ict
-     - Password: ict@nustD3velopers
 
 2. **Access the Application**:
-   - If using XAMPP: `http://localhost/database%20viewer/`
+   - If using XAMPP: `http://localhost/DatabaseViewer/`
    - If using PHP built-in server: `php -S localhost:8000`
 
 ## File Structure
