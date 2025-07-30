@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.login-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+.login-card {
+    max-width: 420px;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.login-card .card-title i {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+    color: #0d6efd;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    background-color: #fff;
+    border-right: 1px solid #dee2e6;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+.main-content {
+    margin-left: 280px;
+    padding: 2rem;
+}
+
+.sidebar .logo {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #212529;
+}
+
+.sidebar .logo i {
+    color: #0d6efd;
+    margin-right: 0.5rem;
+}
+
+.sidebar .list-group-item {
+    border-radius: 0.5rem;
+    margin-bottom: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar .list-group-item i {
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+    vertical-align: text-bottom;
+}
+
+.sidebar .list-group-item.active-db {
+    background-color: #0d6efd;
+    color: #fff !important;
+    border: none;
+}
+
+.sidebar .list-group-item.active-table {
+    background-color: #e9ecef;
+    color: #212529 !important;
+    font-weight: 500;
+}
+
+.table-responsive {
+    max-height: calc(100vh - 220px);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.welcome-message i {
+    font-size: 6rem;
+    color: #dee2e6;
+}
+
+.card-header, .modal-header {
+    background-color: #f8f9fa;
+}
+
